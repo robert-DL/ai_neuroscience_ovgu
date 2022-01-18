@@ -53,8 +53,11 @@ Für dieses Projekt beschränken wir uns auf SSL. Das Ziel ist es, ein erstes Ge
 #### Wahl des Datensets und Preprocessing
 In den unten angegebenen Quellen (das Paper unter 2 ist die ausführliche Version) werden Methodiken präsentiert, um SSL auf EEG-Daten anzuwenden. Ihr sollt (aus Paper 2) zunächst eines der beiden Datensets wählen (geht dabei nach Interesse). Ihr verfolgt die Schritte zum Preprocessing und visualisiert das Ergebnis anhand eines Beispiels.
 
+#### SSL - Techniken
+Im Paper werden verschiedene SSL - Techniken vorgestellt. Das relative positioning sollt ihr einmal selbst implementieren und ausprobieren. Ihr könnt euch dann auch gerne noch ans temporal shuffling machen, solltet ihr genug Zeit machen.
+
 #### Modelle
-In Paper 2 werden einige Modelle vorgestellt. Die für uns wichtigen Architekturen sind die neuen SSL Modelle. Die Baselines oder auch Vergleichsmodelle sind nicht von Interesse. Wählt ein SSL-Modell und implementiert dieses. Trainiert das Modell mit dem im Paper angegeben Loss (ebenfalls selbst implementieren) und optimiert die Hyperparameter. Erreicht ihr ähnliche Ergebnisse wie im Paper? Oder kommt ihr zumindest in die Nähe?
+In Paper 2 werden einige Modelle vorgestellt. Die für uns wichtigen Architekturen sind die neuen SSL Modelle. Die Baselines oder auch Vergleichsmodelle sind nicht von Interesse. Wählt ein SSL-Modell und implementiert dieses. Trainiert das Modell mit dem im Paper angegeben Loss (ebenfalls selbst implementieren) und optimiert die Hyperparameter. 
 
 #### Visualisierung
 Die Visualisierung der Ergebnisse ist von Interesse. Ihr benötigt die PyRiemann Library, um die Latent Spaces nachzustellen. Ist das zu kompliziert oder zeitaufwendig, überlegt euch eigene Visualisierungen (visualisiert z. B. einzelne Dimensionen des latent space/ feature vectors). Das ist also ein etwas kreativer Part.
